@@ -1,0 +1,10 @@
+.inverted{
+    filter: invert(1);
+}
+
+.p-1{
+    padding: 0px 10px;
+}
+.flex{
+    display: flex;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div>
+        <nav>
+
+            <div class="logo">
+                <img class="inverted p-1" id="hamburger" width="32px" src="hamburger.svg" alt="more">
+                <img class="inverted p-1" width="32px" src="home.svg" alt="home">
+                <img class="inverted p-1" width="32px" src="spotify.svg" alt="spotify">
+            </div>
+
+            <div class="searchbar">
+                <input type="search" class="search-input" placeholder="What do you want to play">
+            </div>
+
+            <div class="buttons">
+                <button class="signupbtn">Sign up</button>
+                <button class="loginbtn">Log in</button>
+            </div>
+        </nav>
+    </div>
+    <div class="container flex">
+        <div class="left">
+            <div class="library">
+                <h1>Your Library</h1>
+                <img class="p-1" id="plus" width="20px" src="plus.svg" alt="">
+                <!-- <img class="inverted p-1" width="32px" id="close" src="close.svg" alt=""> -->
+            </div>
+            <div class="songlist">
+                <ul>
+
+                </ul>
+            </div>
+            <footer class="copyright flex">
+                <span>Legacy</span>
+                <span>safety and privacy center</span>
+                <span>privacy policy</span>
+                <span>cookies</span>
+                <span>about ads</span>
+                <span>Accessibility</span>
+            </footer>
+        </div>
+        <div class="right">
+            <h1>Trending Songs</h1>
+            <div class="cards flex">
+                
+            </div>
+
+            <footer class="playbar">
+                <div class="songname">
+                    <!-- javascript -->
+                </div>
+                <div class="controls">
+                    <img id="previous" src="previous.svg" alt="">
+                    <img id="pause" src="play.svg" alt="">
+                    <img id="next" src="next.svg" alt="">
+                </div>
+                <div class="duration"></div>
+                <div class="timer">
+                    <div class="circle"></div>
+                </div>
+                <div class="volume">
+                    <img src="sound.svg" alt="">
+                    <input type="range">
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
